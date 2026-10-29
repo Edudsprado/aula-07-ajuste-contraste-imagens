@@ -1,0 +1,28 @@
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Cache e arquivos compilados do Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Configurações locais dos editores
+.vscode/
+.idea/
+
+# Resultados gerados (mar.png permanece versionada)
+resultado.png
+comparacao_fator_*.png
+
+# Arquivos locais e do sistema operacional
+.env
+.env.*
+!.env.example
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.log
